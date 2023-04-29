@@ -24,11 +24,11 @@ export const StatisticBoard = ({ stats, text }) => {
 };
 
 StatisticBoard.propTypes = {
-  data: PropTypes.arrayOf(
+  stats: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
-  ),
+  ).isRequired,
 };
