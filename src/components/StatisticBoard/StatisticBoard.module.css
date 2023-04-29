@@ -1,0 +1,30 @@
+.statisticboard {
+  background-color: #e7ecf2;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.statistic {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #3f4c5b;
+  text-transform: uppercase;
+}
+
+.statlist {
+  display: flex;
+  width: 420px;
+  background-color: #f3f6f9;
+}

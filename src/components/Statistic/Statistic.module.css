@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: calc((100% - 0px * (5 - 1)) / 5);
+  height: 100px;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.percentage {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
