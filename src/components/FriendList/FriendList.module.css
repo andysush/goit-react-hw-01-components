@@ -1,0 +1,16 @@
+.friendboard {
+  background-color: #e7ecf2;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.friendlist {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}

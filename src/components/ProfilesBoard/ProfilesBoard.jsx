@@ -1,6 +1,6 @@
 import { Profile } from 'components/Profile/Profile';
-import PropTypes from 'prop-types';
 import css from 'components/ProfilesBoard/ProfileBoards.module.css';
+import PropTypes from 'prop-types';
 export const ProfileBoard = ({ data }) => {
   return (
     <div className={css.profileboard}>
