@@ -1,3 +1,8 @@
+.profileboard {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
 .profile {
   display: flex;
   align-items: center;
